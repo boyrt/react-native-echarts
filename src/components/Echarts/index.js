@@ -20,7 +20,7 @@ export default class App extends Component {
           style={{
             height: this.props.height || 400,
           }}
-          source={require('./tpl.html')}
+          source={{uri:'file:///android_asset/tpl.html'}}
         />
       </View>
     );
